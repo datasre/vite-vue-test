@@ -4,7 +4,7 @@
  * @Author       : he_jian
  * @Date         : 2025-07-09 15:20:33
  * @LastEditors  : he_jian
- * @LastEditTime : 2025-07-10 14:21:45
+ * @LastEditTime : 2025-07-10 14:43:47
  * @FilePath     : \\vite-vue-test\\vite.config.ts
  * Copyright (c) 2025 by he_jian, All Rights Reserved. 
  */
@@ -14,7 +14,6 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/vite-vue-test/',
   plugins: [vue()],
   test:{
     environment: 'jsdom',
