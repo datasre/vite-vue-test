@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Hello > props 1`] = `
+"<div>
+  <div>6 * 2 = 12</div><button>Increment</button>
+</div>"
+`;

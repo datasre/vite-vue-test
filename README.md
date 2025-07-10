@@ -1,2 +1,3 @@
-# vite-vue-test
-ci/cd actions demo
+# action demo
+
+vitest run
