@@ -23,7 +23,8 @@ jobs:
         run: |
           npm install -g pnpm
           pnpm install
-          pnpm test
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
 
-      - name: test
+      - name: Test
         run: pnpm run test
